@@ -1,0 +1,57 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+.logo {
+    width: 50;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar > li {
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+.resCardImg {
+    width : 100%;
+}
+
+.restaurent-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.restaurentCard {
+    margin: 5px;
+    width: 200px;
+    padding: 2px;
+
+}
+
+.restaurentCard:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.filter {
+    display: flex;
+    margin: 10px;
+}
+
+.simmer-card {
+    width: 200px;
+    height: 350px;
+    margin: 10px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+}
+
+.simmerUI {
+    display: flex;
+    flex-wrap: wrap;
+}
